@@ -1,0 +1,7 @@
+.transition-image {
+    transition: transform 0.5s ease;
+}
+
+.transition-image:hover {
+    transform: translateX(20px);
+}

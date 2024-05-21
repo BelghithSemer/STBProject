@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ccp0qFsI1heLCtNk9xqRAXG1a15LI+9XQb3SBZTzS5VmJCoCpqYTc3H6qg8qvPpZqhCQtO5OKBkdyH97zXTCZQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\moham\\source\\repos\\gestionCredits\\gestionCredits.Web\\gestionCredits.Web.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\moham\\.nuget\\packages\\fsharp.core\\8.0.200\\fsharp.core.8.0.200.nupkg.sha512"
+  ],
+  "logs": []
+}

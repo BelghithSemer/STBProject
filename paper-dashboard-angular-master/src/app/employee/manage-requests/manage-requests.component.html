@@ -1,0 +1,118 @@
+<div class="col-md-12">
+  <div class="card card-chart">
+    <div class="card-header">
+    </div>
+    <div class="card-body">
+      <div class="table-responsive">
+        <table class="table table-bordered">
+          <thead class="text-primary">
+            <th style="white-space: nowrap;">Profession</th>
+            <th style="white-space: nowrap;">Ancienneté dans l'emploi</th>
+            <th style="white-space: nowrap;">Type de contrat</th>
+            <th style="white-space: nowrap;">Salaire Mensuel Net</th>
+            <th style="white-space: nowrap;">Montant demandé</th>
+            <th style="white-space: nowrap;">Nombre d'années de remboursement</th>
+            <th style="white-space: nowrap;">Raison de la demande de crédit</th>
+            <th style="white-space: nowrap;">Type de crédit</th>
+            <th style="white-space: nowrap;">Documents attachés</th>
+            <th style="white-space: nowrap;">Etat</th>
+            <th style="white-space: nowrap;">Action</th>
+
+          </thead>
+          <tbody>
+            <tr *ngFor="let t of demandes">
+              <td>{{t.job}}</td>
+              <td>{{t.seniority}}</td>
+              <td>{{t.contract}}</td>
+              <td>{{t.salarity}}</td>
+              <td>{{t.otherIncomes}}</td>
+              <td>{{t.loanAmountRequested}}</td>
+              <td>{{t.repaymentYrears}}</td>
+              <td>{{t.loanPurpose}}</td>
+              <td>
+
+                <div *ngFor="let filePath of t.filePaths ">
+                    <!-- Display as image -->
+                    <img *ngIf="filePath.endsWith('.jpg') || filePath.endsWith('.png')" [src]="getFileUrl(filePath)" alt="File Image" width="200">
+                    <!-- Display as download link -->
+                    <a *ngIf="!filePath.endsWith('.jpg') && !filePath.endsWith('.png')" [href]="getFileUrl(filePath)" download>Download File</a>
+                </div>
+
+              </td>
+              <td>{{ t.status }}</td>
+
+
+              <td> <button type="button" class="btn btn-primary" (click)="SetUser(t)" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal">
+                  Détails
+                </button></td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Détails</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="card mb-3" style="max-width: 1200px;">
+                      <div class="row no-gutters">
+                          <div class="col-md-2 d-block mx-auto">
+                              <img src="https://cdn-icons-png.freepik.com/256/3135/3135715.png?semt=ais_hybrid" class="card-img mx-auto d-block" alt="..." style="max-width: 150px; max-height: 150px;">
+                          </div>
+                          <div class="col-md-10">
+                              <div class="card-body">
+                                  <h5 class="card-title">Informations Utilisateur</h5>
+                                  <div class="row">
+                                      <div class="col-sm-4">
+                                          <p><strong>IdRef:</strong> #{{user.idRef}}</p>
+                                          <p><strong>Nom:</strong> {{user.name}}</p>
+                                          <p><strong>Prénom:</strong> {{user.lastName}}</p>
+                                      </div>
+                                      <div class="col-sm-4">
+                                          <p><strong>NumCIN:</strong> {{user.cin}}</p>
+                                          <p><strong>Numéro de Téléphone:</strong> {{user.phoneNumber}}</p>
+                                          <p><strong>Adresse Email:</strong> {{user.email}}</p>
+                                      </div>
+                                      <div class="col-sm-4">
+                                          <p><strong>Date de Naissance:</strong> {{user.date | date:'yyyy-MM-dd HH:mm:ss'}}</p>
+                                          <p><strong>Gouvernorat:</strong> {{user.adsress}}</p>
+                                          <p><strong>Agence:</strong> {{user.agency}}</p>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <table class="table table-bordered">
+                      <thead class="text-primary">
+                          <th scope="col">Date</th>
+                          <th scope="col">Encours</th>
+                          <th scope="col">Remboursé</th>
+                          <th scope="col">Montant Crédit</th>
+                          <th scope="col">Total des échéances</th>
+                          
+                      </thead>
+                      <tbody>
+                          <tr *ngFor="let t of credits">
+                              <td>{{ t.date | date:'yyyy-MM-dd HH:mm:ss' }}</td>
+                              <td>{{ t.totalIssued }} DT</td>
+                              <td>{{ t.totalRedeemed }} DT</td>
+                              <td>{{ t.balance }} DT</td>
+                              <td>{{ t.totalDue }} DT</td>
+                          </tr>
+                      </tbody>
+                  </table>
+                  <div class="modal-footer d-flex justify-content-center">
+                    <p class="text-primary font-weight-bold">Capacité:  {{ capacity }}</p>
+                </div>
+                
+                  <div class="modal-footer">
+                      <button type="button"  (click)="UpdateDemande('accepted')" class="btn btn-primary" data-bs-dismiss="modal">Approuver</button>
+                      <button type="button" class="btn btn-danger" (click)="UpdateDemande('refused')" data-bs-dismiss="modal">Rejeter</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+      

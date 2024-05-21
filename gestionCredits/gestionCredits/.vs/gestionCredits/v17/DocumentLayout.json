@@ -1,0 +1,484 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{98665FD6-61E9-4B69-BE4B-0CCDAB401DF6}|gestionCredits.API\\gestionCredits.API.csproj|c:\\users\\asus\\onedrive\\desktop\\eya\\auth\\gestioncredits\\gestioncredits\\gestioncredits.api\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98665FD6-61E9-4B69-BE4B-0CCDAB401DF6}|gestionCredits.API\\gestionCredits.API.csproj|solutionrelative:gestioncredits.api\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98665FD6-61E9-4B69-BE4B-0CCDAB401DF6}|gestionCredits.API\\gestionCredits.API.csproj|c:\\users\\asus\\onedrive\\desktop\\eya\\auth\\gestioncredits\\gestioncredits\\gestioncredits.api\\controllers\\creditapplicationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98665FD6-61E9-4B69-BE4B-0CCDAB401DF6}|gestionCredits.API\\gestionCredits.API.csproj|solutionrelative:gestioncredits.api\\controllers\\creditapplicationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98665FD6-61E9-4B69-BE4B-0CCDAB401DF6}|gestionCredits.API\\gestionCredits.API.csproj|c:\\users\\asus\\onedrive\\desktop\\eya\\auth\\gestioncredits\\gestioncredits\\gestioncredits.api\\controllers\\creditcards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98665FD6-61E9-4B69-BE4B-0CCDAB401DF6}|gestionCredits.API\\gestionCredits.API.csproj|solutionrelative:gestioncredits.api\\controllers\\creditcards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/GestionCredit/True/SqlTable/dbo.CreditApplications.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.data\\Migrations\\20240519021545_files4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:gestionCredits.data\\Migrations\\20240519021545_files4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DE28FFD-526B-4C1E-9032-3EC8F43D3A36}|gestionCredits.data\\gestionCredits.data.csproj|c:\\users\\asus\\onedrive\\desktop\\eya\\auth\\gestioncredits\\gestioncredits\\gestioncredits.data\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DE28FFD-526B-4C1E-9032-3EC8F43D3A36}|gestionCredits.data\\gestionCredits.data.csproj|solutionrelative:gestioncredits.data\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98665FD6-61E9-4B69-BE4B-0CCDAB401DF6}|gestionCredits.API\\gestionCredits.API.csproj|c:\\users\\asus\\onedrive\\desktop\\eya\\auth\\gestioncredits\\gestioncredits\\gestioncredits.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98665FD6-61E9-4B69-BE4B-0CCDAB401DF6}|gestionCredits.API\\gestionCredits.API.csproj|solutionrelative:gestioncredits.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48080570-5301-459E-AF0A-8E69BDD6B1B4}|gestionCredits.entites\\gestionCredits.entites.csproj|c:\\users\\asus\\onedrive\\desktop\\eya\\auth\\gestioncredits\\gestioncredits\\gestioncredits.entites\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48080570-5301-459E-AF0A-8E69BDD6B1B4}|gestionCredits.entites\\gestionCredits.entites.csproj|solutionrelative:gestioncredits.entites\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48080570-5301-459E-AF0A-8E69BDD6B1B4}|gestionCredits.entites\\gestionCredits.entites.csproj|c:\\users\\asus\\onedrive\\desktop\\eya\\auth\\gestioncredits\\gestioncredits\\gestioncredits.entites\\signuprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48080570-5301-459E-AF0A-8E69BDD6B1B4}|gestionCredits.entites\\gestionCredits.entites.csproj|solutionrelative:gestioncredits.entites\\signuprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DE28FFD-526B-4C1E-9032-3EC8F43D3A36}|gestionCredits.data\\gestionCredits.data.csproj|c:\\users\\asus\\onedrive\\desktop\\eya\\auth\\gestioncredits\\gestioncredits\\gestioncredits.data\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DE28FFD-526B-4C1E-9032-3EC8F43D3A36}|gestionCredits.data\\gestionCredits.data.csproj|solutionrelative:gestioncredits.data\\userrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48080570-5301-459E-AF0A-8E69BDD6B1B4}|gestionCredits.entites\\gestionCredits.entites.csproj|c:\\users\\asus\\onedrive\\desktop\\eya\\auth\\gestioncredits\\gestioncredits\\gestioncredits.entites\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48080570-5301-459E-AF0A-8E69BDD6B1B4}|gestionCredits.entites\\gestionCredits.entites.csproj|solutionrelative:gestioncredits.entites\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48080570-5301-459E-AF0A-8E69BDD6B1B4}|gestionCredits.entites\\gestionCredits.entites.csproj|c:\\users\\asus\\onedrive\\desktop\\eya\\auth\\gestioncredits\\gestioncredits\\gestioncredits.entites\\creditapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48080570-5301-459E-AF0A-8E69BDD6B1B4}|gestionCredits.entites\\gestionCredits.entites.csproj|solutionrelative:gestioncredits.entites\\creditapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/GestionCredit/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DE28FFD-526B-4C1E-9032-3EC8F43D3A36}|gestionCredits.data\\gestionCredits.data.csproj|c:\\users\\asus\\onedrive\\desktop\\eya\\auth\\gestioncredits\\gestioncredits\\gestioncredits.data\\migrations\\20240518183704_files3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DE28FFD-526B-4C1E-9032-3EC8F43D3A36}|gestionCredits.data\\gestionCredits.data.csproj|solutionrelative:gestioncredits.data\\migrations\\20240518183704_files3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DE28FFD-526B-4C1E-9032-3EC8F43D3A36}|gestionCredits.data\\gestionCredits.data.csproj|c:\\users\\asus\\onedrive\\desktop\\eya\\auth\\gestioncredits\\gestioncredits\\gestioncredits.data\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DE28FFD-526B-4C1E-9032-3EC8F43D3A36}|gestionCredits.data\\gestionCredits.data.csproj|solutionrelative:gestioncredits.data\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DE28FFD-526B-4C1E-9032-3EC8F43D3A36}|gestionCredits.data\\gestionCredits.data.csproj|c:\\users\\asus\\onedrive\\desktop\\eya\\auth\\gestioncredits\\gestioncredits\\gestioncredits.data\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DE28FFD-526B-4C1E-9032-3EC8F43D3A36}|gestionCredits.data\\gestionCredits.data.csproj|solutionrelative:gestioncredits.data\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DE28FFD-526B-4C1E-9032-3EC8F43D3A36}|gestionCredits.data\\gestionCredits.data.csproj|c:\\users\\asus\\onedrive\\desktop\\eya\\auth\\gestioncredits\\gestioncredits\\gestioncredits.data\\migrations\\20240518182144_another fix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DE28FFD-526B-4C1E-9032-3EC8F43D3A36}|gestionCredits.data\\gestionCredits.data.csproj|solutionrelative:gestioncredits.data\\migrations\\20240518182144_another fix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DE28FFD-526B-4C1E-9032-3EC8F43D3A36}|gestionCredits.data\\gestionCredits.data.csproj|c:\\users\\asus\\onedrive\\desktop\\eya\\auth\\gestioncredits\\gestioncredits\\gestioncredits.data\\migrations\\20240518180535_fixing files 2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DE28FFD-526B-4C1E-9032-3EC8F43D3A36}|gestionCredits.data\\gestionCredits.data.csproj|solutionrelative:gestioncredits.data\\migrations\\20240518180535_fixing files 2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DE28FFD-526B-4C1E-9032-3EC8F43D3A36}|gestionCredits.data\\gestionCredits.data.csproj|c:\\users\\asus\\onedrive\\desktop\\eya\\auth\\gestioncredits\\gestioncredits\\gestioncredits.data\\migrations\\20240518065624_fixing files.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DE28FFD-526B-4C1E-9032-3EC8F43D3A36}|gestionCredits.data\\gestionCredits.data.csproj|solutionrelative:gestioncredits.data\\migrations\\20240518065624_fixing files.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98665FD6-61E9-4B69-BE4B-0CCDAB401DF6}|gestionCredits.API\\gestionCredits.API.csproj|c:\\users\\asus\\onedrive\\desktop\\eya\\auth\\gestioncredits\\gestioncredits\\gestioncredits.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98665FD6-61E9-4B69-BE4B-0CCDAB401DF6}|gestionCredits.API\\gestionCredits.API.csproj|solutionrelative:gestioncredits.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DE28FFD-526B-4C1E-9032-3EC8F43D3A36}|gestionCredits.data\\gestionCredits.data.csproj|c:\\users\\asus\\onedrive\\desktop\\eya\\auth\\gestioncredits\\gestioncredits\\gestioncredits.data\\iuserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DE28FFD-526B-4C1E-9032-3EC8F43D3A36}|gestionCredits.data\\gestionCredits.data.csproj|solutionrelative:gestioncredits.data\\iuserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DE28FFD-526B-4C1E-9032-3EC8F43D3A36}|gestionCredits.data\\gestionCredits.data.csproj|c:\\users\\asus\\onedrive\\desktop\\eya\\auth\\gestioncredits\\gestioncredits\\gestioncredits.data\\gestioncreditcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DE28FFD-526B-4C1E-9032-3EC8F43D3A36}|gestionCredits.data\\gestionCredits.data.csproj|solutionrelative:gestioncredits.data\\gestioncreditcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DE28FFD-526B-4C1E-9032-3EC8F43D3A36}|gestionCredits.data\\gestionCredits.data.csproj|c:\\users\\asus\\onedrive\\desktop\\eya\\auth\\gestioncredits\\gestioncredits\\gestioncredits.data\\migrations\\20240517212056_tt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DE28FFD-526B-4C1E-9032-3EC8F43D3A36}|gestionCredits.data\\gestionCredits.data.csproj|solutionrelative:gestioncredits.data\\migrations\\20240517212056_tt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98665FD6-61E9-4B69-BE4B-0CCDAB401DF6}|gestionCredits.API\\gestionCredits.API.csproj|c:\\users\\asus\\onedrive\\desktop\\eya\\auth\\gestioncredits\\gestioncredits\\gestioncredits.api\\gestioncredits.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{98665FD6-61E9-4B69-BE4B-0CCDAB401DF6}|gestionCredits.API\\gestionCredits.API.csproj|solutionrelative:gestioncredits.api\\gestioncredits.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C98ABC03-2CEF-448C-AD88-AB9B329C0528}|gestionCredits.core\\gestionCredits.core.csproj|c:\\users\\asus\\onedrive\\desktop\\eya\\auth\\gestioncredits\\gestioncredits\\gestioncredits.core\\gestioncredits.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C98ABC03-2CEF-448C-AD88-AB9B329C0528}|gestionCredits.core\\gestionCredits.core.csproj|solutionrelative:gestioncredits.core\\gestioncredits.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48080570-5301-459E-AF0A-8E69BDD6B1B4}|gestionCredits.entites\\gestionCredits.entites.csproj|c:\\users\\asus\\onedrive\\desktop\\eya\\auth\\gestioncredits\\gestioncredits\\gestioncredits.entites\\usr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48080570-5301-459E-AF0A-8E69BDD6B1B4}|gestionCredits.entites\\gestionCredits.entites.csproj|solutionrelative:gestioncredits.entites\\usr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DE28FFD-526B-4C1E-9032-3EC8F43D3A36}|gestionCredits.data\\gestionCredits.data.csproj|c:\\users\\asus\\onedrive\\desktop\\eya\\auth\\gestioncredits\\gestioncredits\\gestioncredits.data\\migrations\\20240517173124_adding auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DE28FFD-526B-4C1E-9032-3EC8F43D3A36}|gestionCredits.data\\gestionCredits.data.csproj|solutionrelative:gestioncredits.data\\migrations\\20240517173124_adding auth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98665FD6-61E9-4B69-BE4B-0CCDAB401DF6}|gestionCredits.API\\gestionCredits.API.csproj|c:\\users\\asus\\onedrive\\desktop\\eya\\auth\\gestioncredits\\gestioncredits\\gestioncredits.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{98665FD6-61E9-4B69-BE4B-0CCDAB401DF6}|gestionCredits.API\\gestionCredits.API.csproj|solutionrelative:gestioncredits.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1725762622:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TransactionController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.API\\Controllers\\TransactionController.cs",
+              "RelativeDocumentMoniker": "gestionCredits.API\\Controllers\\TransactionController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.API\\Controllers\\TransactionController.cs",
+              "RelativeToolTip": "gestionCredits.API\\Controllers\\TransactionController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwCIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T01:00:20.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "dbo.CreditApplications [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/GestionCredit/True/SqlTable/dbo.CreditApplications.sql",
+              "ToolTip": "dbo.CreditApplications [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-05-18T18:24:52.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "gestionCredits.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "gestionCredits.API\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAAwGkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T20:39:18.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.entites\\Login.cs",
+              "RelativeDocumentMoniker": "gestionCredits.entites\\Login.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.entites\\Login.cs",
+              "RelativeToolTip": "gestionCredits.entites\\Login.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T18:13:17.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreditApplicationsController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.API\\Controllers\\CreditApplicationsController.cs",
+              "RelativeDocumentMoniker": "gestionCredits.API\\Controllers\\CreditApplicationsController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.API\\Controllers\\CreditApplicationsController.cs",
+              "RelativeToolTip": "gestionCredits.API\\Controllers\\CreditApplicationsController.cs",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAuwHgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T21:25:28.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20240519021545_files4.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.data\\Migrations\\20240519021545_files4.cs",
+              "RelativeDocumentMoniker": "gestionCredits.data\\Migrations\\20240519021545_files4.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.data\\Migrations\\20240519021545_files4.cs",
+              "RelativeToolTip": "gestionCredits.data\\Migrations\\20240519021545_files4.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T02:15:46.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "user.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.entites\\user.cs",
+              "RelativeDocumentMoniker": "gestionCredits.entites\\user.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.entites\\user.cs",
+              "RelativeToolTip": "gestionCredits.entites\\user.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAuwA0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T17:31:33.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreditCards.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.API\\Controllers\\CreditCards.cs",
+              "RelativeDocumentMoniker": "gestionCredits.API\\Controllers\\CreditCards.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.API\\Controllers\\CreditCards.cs",
+              "RelativeToolTip": "gestionCredits.API\\Controllers\\CreditCards.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T21:26:23.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserRepo.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.data\\UserRepo.cs",
+              "RelativeDocumentMoniker": "gestionCredits.data\\UserRepo.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.data\\UserRepo.cs",
+              "RelativeToolTip": "gestionCredits.data\\UserRepo.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAhwBQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T21:31:13.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SignUpRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.entites\\SignUpRequest.cs",
+              "RelativeDocumentMoniker": "gestionCredits.entites\\SignUpRequest.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.entites\\SignUpRequest.cs",
+              "RelativeToolTip": "gestionCredits.entites\\SignUpRequest.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAgwAsAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T21:46:30.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.data\\Repository.cs",
+              "RelativeDocumentMoniker": "gestionCredits.data\\Repository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.data\\Repository.cs",
+              "RelativeToolTip": "gestionCredits.data\\Repository.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAhwB4AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T21:51:53.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.data\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "gestionCredits.data\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.data\\IUnitOfWork.cs",
+              "RelativeToolTip": "gestionCredits.data\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T21:26:17.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.data\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "gestionCredits.data\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.data\\UnitOfWork.cs",
+              "RelativeToolTip": "gestionCredits.data\\UnitOfWork.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwBwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T21:28:34.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CreditApplication.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.entites\\CreditApplication.cs",
+              "RelativeDocumentMoniker": "gestionCredits.entites\\CreditApplication.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.entites\\CreditApplication.cs",
+              "RelativeToolTip": "gestionCredits.entites\\CreditApplication.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA1wBAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T06:32:48.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20240518183704_files3.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.data\\Migrations\\20240518183704_files3.cs",
+              "RelativeDocumentMoniker": "gestionCredits.data\\Migrations\\20240518183704_files3.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.data\\Migrations\\20240518183704_files3.cs",
+              "RelativeToolTip": "gestionCredits.data\\Migrations\\20240518183704_files3.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T18:37:05.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20240518182144_another fix.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.data\\Migrations\\20240518182144_another fix.cs",
+              "RelativeDocumentMoniker": "gestionCredits.data\\Migrations\\20240518182144_another fix.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.data\\Migrations\\20240518182144_another fix.cs",
+              "RelativeToolTip": "gestionCredits.data\\Migrations\\20240518182144_another fix.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T18:21:44.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20240518180535_fixing files 2.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.data\\Migrations\\20240518180535_fixing files 2.cs",
+              "RelativeDocumentMoniker": "gestionCredits.data\\Migrations\\20240518180535_fixing files 2.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.data\\Migrations\\20240518180535_fixing files 2.cs",
+              "RelativeToolTip": "gestionCredits.data\\Migrations\\20240518180535_fixing files 2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T18:05:35.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20240518065624_fixing files.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.data\\Migrations\\20240518065624_fixing files.cs",
+              "RelativeDocumentMoniker": "gestionCredits.data\\Migrations\\20240518065624_fixing files.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.data\\Migrations\\20240518065624_fixing files.cs",
+              "RelativeToolTip": "gestionCredits.data\\Migrations\\20240518065624_fixing files.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T06:56:24.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.API\\Program.cs",
+              "RelativeDocumentMoniker": "gestionCredits.API\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.API\\Program.cs",
+              "RelativeToolTip": "gestionCredits.API\\Program.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAhwFwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T20:41:50.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "dbo.Users [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/GestionCredit/True/SqlTable/dbo.Users.sql",
+              "ToolTip": "dbo.Users [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-05-17T21:49:31.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IUserRepo.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.data\\IUserRepo.cs",
+              "RelativeDocumentMoniker": "gestionCredits.data\\IUserRepo.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.data\\IUserRepo.cs",
+              "RelativeToolTip": "gestionCredits.data\\IUserRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T21:30:37.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GestionCreditContext.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.data\\GestionCreditContext.cs",
+              "RelativeDocumentMoniker": "gestionCredits.data\\GestionCreditContext.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.data\\GestionCreditContext.cs",
+              "RelativeToolTip": "gestionCredits.data\\GestionCreditContext.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAzwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T17:57:40.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20240517212056_tt.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.data\\Migrations\\20240517212056_tt.cs",
+              "RelativeDocumentMoniker": "gestionCredits.data\\Migrations\\20240517212056_tt.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.data\\Migrations\\20240517212056_tt.cs",
+              "RelativeToolTip": "gestionCredits.data\\Migrations\\20240517212056_tt.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T21:20:57.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "gestionCredits.API.csproj",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.API\\gestionCredits.API.csproj",
+              "RelativeDocumentMoniker": "gestionCredits.API\\gestionCredits.API.csproj",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.API\\gestionCredits.API.csproj",
+              "RelativeToolTip": "gestionCredits.API\\gestionCredits.API.csproj",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-17T21:17:34.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "gestionCredits.core.csproj",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.core\\gestionCredits.core.csproj",
+              "RelativeDocumentMoniker": "gestionCredits.core\\gestionCredits.core.csproj",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.core\\gestionCredits.core.csproj",
+              "RelativeToolTip": "gestionCredits.core\\gestionCredits.core.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-17T21:18:53.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "usr.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.entites\\usr.cs",
+              "RelativeDocumentMoniker": "gestionCredits.entites\\usr.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.entites\\usr.cs",
+              "RelativeToolTip": "gestionCredits.entites\\usr.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T17:31:42.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20240517173124_Adding Auth.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.data\\Migrations\\20240517173124_Adding Auth.cs",
+              "RelativeDocumentMoniker": "gestionCredits.data\\Migrations\\20240517173124_Adding Auth.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.data\\Migrations\\20240517173124_Adding Auth.cs",
+              "RelativeToolTip": "gestionCredits.data\\Migrations\\20240517173124_Adding Auth.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T17:31:24.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.API\\appsettings.json",
+              "RelativeDocumentMoniker": "gestionCredits.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.API\\appsettings.json",
+              "RelativeToolTip": "gestionCredits.API\\appsettings.json",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAcwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-16T20:43:29.178Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

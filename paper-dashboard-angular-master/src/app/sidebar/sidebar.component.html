@@ -1,0 +1,18 @@
+
+<div class="sidebar-wrapper">
+  <div class="logo">
+    <div class="form-group text-center">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/06/Logo_STB.png" class="img-fluid" style="width: 70%; display: block; margin: 0 auto;" alt="Responsive image">
+  </div>
+  
+  </div>
+  <ul class="nav">
+    <li *ngFor="let menuItem of menuItems" routerLinkActive="active" class="{{menuItem.class}}">
+        <a [routerLink]="[menuItem.path]">
+            <i class="nc-icon {{menuItem.icon}}"></i>
+            <p>{{menuItem.title}}</p>
+        </a>
+    </li>
+</ul>
+</div>
+

@@ -1,0 +1,76 @@
+<div class="row">
+  <div class="col-md-12">
+    <div class="card demo-icons">
+      <div class="card-header">
+        <h5 class="card-title">Introduire vos données</h5>
+      <div class="card-body all-icons">
+        <div id="icons-wrapper">
+          <form [formGroup]="simulateurform">
+            <div class="form-group">
+              <label>Montant du crédit</label>
+              <input type="number" formControlName="montant" class="form-control" placeholder="Entrez le montant du crédit ">
+            </div>
+            <div class="form-group">
+              <label>Taux d'intérets</label>
+              <input type="number" formControlName="taux"class="form-control" placeholder="Entrez le taux d'intérets ">
+            </div>
+            <div class="form-group">
+              <label for="periode">Périodicité</label>
+              <select formControlName="periode" class="form-control">
+                  <option value="Mensuelle">Mensuelle</option>
+                  <option value="Trimestrielle">Trimestrielle</option>
+                  <option value="Semestrielle">Semestrielle</option>
+                  <option value="Annuelle">Annuelle</option>
+              </select>
+          </div>          
+            <div class="form-group">
+              <label>Durée </label>
+              <input type="number" formControlName="duree" class="form-control" placeholder="Entrez la durée">
+            </div>
+
+            <button class="btn btn-info" (click)="calculerAmortissement()">Calculer </button>
+          </form>
+
+          <div *ngIf="showTable">
+
+        <div class="table-responsive">
+            <table class="table">
+              <thead class=" text-primary">
+                <th>Numéro de paiement</th>
+                <th>Date</th>
+                <th>Capital remboursé</th>
+                <th>Intérêts payés</th>
+                <th class="text-right">Remboursement dû</th>
+              </thead>
+              <tbody>
+                <tr *ngFor="let payment of Payments">
+                  <td>
+                    {{ payment.paymentNumber }}
+                  </td>
+                  <td>
+                    {{ payment.date | date }}
+                  </td>
+                  <td>
+                    {{ payment.principalPaid }}
+                  </td>
+                  <td>
+                    {{ payment.interestPaid }}
+                  </td>
+                  <td class="text-right">
+                    {{ payment.remainingBalance }}
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        </div>
+      </div>
+</div>
+    
+
+
+

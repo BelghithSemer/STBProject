@@ -1,0 +1,86 @@
+<div class="row">
+  <div class="col-md-12">
+    <div class="card demo-icons">
+      <div class="card-header">
+        <h5 class="card-title">Introduire vos données</h5>
+      <div class="card-body ">
+        <mat-stepper [linear]="isLinear" #stepper>
+          
+          <mat-step [stepControl]="secondFormGroup" label="Situation professionnelle">
+            <form [formGroup]="secondFormGroup">
+              <div class="form-group">
+                <label for="formGroupExampleInput">Profession</label>
+                <input type="text" class="form-control" formControlName="profession" id="Profession" placeholder="Entrez votre Profession ">
+              </div>
+              <div class="form-group">
+                <label for="formGroupExampleInput">Ancienneté dans l'emploi</label>
+                <input type="number" class="form-control" formControlName="anciennete"id="duree" placeholder="Durée d'ancienneté dans l'emploi  ">
+              </div>
+              <div class="form-group">
+                <label for="formGroupExampleInput">Type de contrat</label>
+                <select class="form-control"formControlName="contrat" id="type">
+                  <option> CDD</option>
+                  <option>CDI</option>
+                  <option>libérale</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="formGroupExampleInput">Salaire Mensuel Net</label>
+                <input type="number" class="form-control"formControlName="salaire" id="salaire" placeholder="Entrez votre Salaire  ">
+              </div>
+              <div class="form-group">
+                <label for="formGroupExampleInput">Autres Revenus</label>
+                <input type="number" class="form-control"formControlName="revenus" id="revenus" placeholder="Montant des autres revenus ">
+              </div>
+
+              
+              <div>
+                <!--<button mat-button matStepperPrevious class="btn btn-primary btn-sm">Retour</button>-->
+                <button mat-button matStepperNext  class="btn btn-primary btn-sm">Suivant</button>
+              </div>
+            </form>
+          </mat-step>
+          <mat-step [stepControl]="thirdFormGroup">
+            <form [formGroup]="thirdFormGroup">
+               <ng-template matStepLabel>Informations sur le crédit demandé</ng-template>
+            <div class="form-group">
+              <label for="formGroupExampleInput">Montant demandé</label>
+              <input type="number" class="form-control" formControlName="montant"id="montant" placeholder="Entrez le Montant demandé   ">
+            </div>
+            <div class="form-group">
+              <label for="formGroupExampleInput">Nombre d'années de remboursement</label>
+              <input type="number" class="form-control" formControlName="annee" id="annee" placeholder="Nombre d'années de remboursement">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Raison de la demande de crédit</label>
+              <textarea class="form-control"formControlName="raison" id="exampleFormControlTextarea1" rows="3"placeholder="Expliquez ici la raison de votre demande de crédit"></textarea>
+            </div> 
+            <div class="form-group">
+              <label for="formGroupExampleInput">Type de crédit</label>
+              <select class="form-control" formControlName="AttachmentFileName" id="type">
+                  <option selected>Prêts personnels</option>
+                  <option>Crédits à la consommation</option>
+                  <option>Prêts automobiles</option>
+              </select>
+          </div>
+          
+            <div class="mb-3">
+              <label for="formFileMultiple" class="form-label">Les documents attachés:(copie CIN, Facture de services publics, Bulletins de salaire, Preuves de revenus ) </label>
+              <input class="form-control" formControlName="files" type="file" id="formFileMultiple" (change)="onFileChange($event)" multiple>
+            </div>     
+            <div>
+                <button mat-flat-button color="primary" type="submit" class="btn btn-info" (click)="submit()">Soumettre</button>
+                
+                <button mat-flat-button color="danger" (click)="stepper.reset()">Réinitialiser</button>
+            </div>
+            </form>
+          </mat-step>
+        </mat-stepper>
+        
+        
+      
+        
+      </div>
+    </div>
+  </div>
+</div>

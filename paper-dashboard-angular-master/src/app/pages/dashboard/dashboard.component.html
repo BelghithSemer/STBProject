@@ -1,0 +1,137 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<!-- account-cards.component.html -->
+<div class="row">
+ <div class="col-lg-3 col-md-6 col-sm-6" *ngFor="let account of accounts">
+     <div class="card card-stats">
+       <div class="card-body ">
+         <div class="row">
+           <div class="col-5 col-md-4">
+             <div class="icon-big text-center icon-warning">
+               <!-- Ici, vous pouvez ajouter des icônes spécifiques en fonction du type de compte -->
+               <i class="nc-icon nc-money-coins text-success"></i>
+             </div>
+           </div>
+           <div class="col-7 col-md-8">
+             <div class="numbers">
+               <p class="card-title">{{ account.balance }} DT
+               <p>
+             </div>
+           </div>
+         </div>
+       </div>
+       <div class="card-footer ">
+         <hr>
+         <div class="stats">
+           <i></i> {{ account.accountName }}
+         </div>
+       </div>
+     </div>
+ </div>
+</div>
+<div class="row">
+  <div class="col-md-12">
+    <div class="card ">
+
+      <div class="card-header ">
+        <h5 class="card-title">Mes Cartes</h5>
+      </div>
+      <div class="card-body ">
+        <table class="table">
+          <thead class=" text-primary">
+          <th > Statut </th>
+          <th> Carte </th>
+          <th> Libellé </th>
+          <th> Solde/Plafond </th>
+        </thead>
+        <tbody>
+          <tr *ngFor="let t of cards">
+            <td>
+               <span [style.backgroundColor]="t.statut === 'Carte Activé' ? '#75da7e' : 'red'"
+                     [style.borderRadius]="'30px'"
+                     [style.padding]="'5px 10px'"
+                     [style.color]="t.statut === 'activé' ? 'white' : 'white'">
+                 {{ t.statut }}
+               </span>
+            </td>
+            <td>
+              <img *ngIf="t.typeDeCarte === 'CARTE VISA'" src="https://www.monetiquetunisie.com/wp-content/uploads/2019/06/Carte-Visa.png" alt="Visa" width="30">
+              <img *ngIf="t.typeDeCarte === 'CARTE MASTERCARD'" src="https://img.phonandroid.com/2021/03/mastercard-carte-bleue-biometrique.jpg" alt="Mastercard" width="30">
+              <span style=" margin-left: 10px;">{{ t.typeDeCarte }}</span>
+             </td> 
+            <td>{{ t.libelle }}</td>
+            <td>
+              {{ t.solde }}DT/ {{ t.plafond }}DT
+              <div class="progress" style="height: 8px;">
+                <div class="progress-bar bg-success" role="progressbar" [style.width]="t.usedPercentage+'%'">
+                </div>
+              </div>
+            </td>
+            
+         
+           </tr>
+           
+        </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
+    <div class="card ">
+
+      <div class="card-header ">
+        <h5 class="card-title">Mes Transactions</h5>
+      </div>
+      <div class="card-body ">
+        <table class="table">
+          <thead class=" text-primary">
+          <th > Date de transaction </th>
+          <th> Emétteur</th>
+          <th> Bénéficiaire </th>
+          <th> Montant </th>
+        </thead>
+        <tbody>
+          <tr *ngFor="let t of transactions">
+            <td>{{ t.date | date:'yyyy-MM-dd HH:mm:ss' }}</td>
+            <td>{{ t.source }}</td>
+            <td>{{ t.beneficiary }}</td>
+            <td>{{ t.amount }}DT</td>
+          </tr>
+        </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-12">
+    <div class="card card-chart">
+      <div class="card-header">
+        <h5 class="card-title">Mes Crédits</h5>
+      </div>
+      <div class="card-body">
+        <table class="table">
+          <thead class=" text-primary">
+          <th> Date  </th>
+          <th>Encours</th>
+
+          <th> Remboursé </th>
+
+          <th> Montant Crédit </th>
+        </thead>
+        <tbody>
+          <tr *ngFor="let t of credits">
+            <td>{{ t.date | date:'yyyy-MM-dd HH:mm:ss' }}</td>
+            <td>{{ t.totalIssued }}DT</td>
+            <td>{{ t.totalRedeemed }}DT</td>
+            <td>{{ t.balance }}DT</td>
+
+          </tr>
+        </tbody>
+        </table>
+      </div>
+
+    </div>
+  </div>
+</div>
