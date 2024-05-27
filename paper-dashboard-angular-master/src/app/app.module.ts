@@ -29,6 +29,8 @@ import { TableModule } from 'primeng/table'
 import { ManageRequestsComponent } from 'app/employee/manage-requests/manage-requests.component';
 import { RegisterComponent } from './pages/register/register.component';
 import { LandingComponent } from './pages/landing/landing.component';
+import { StatComponent } from './pages/stat/stat.component';
+
 
 @NgModule({
   declarations: [
@@ -41,6 +43,7 @@ import { LandingComponent } from './pages/landing/landing.component';
     ManageRequestsComponent,
     RegisterComponent,
     LandingComponent,
+    StatComponent
 
 
 
@@ -66,7 +69,9 @@ import { LandingComponent } from './pages/landing/landing.component';
     MatInputModule,
     MatTableModule,
     MatDialogModule,
-    TableModule
+    TableModule,
+      
+   
 
 
 

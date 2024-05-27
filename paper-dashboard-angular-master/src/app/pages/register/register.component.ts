@@ -24,18 +24,25 @@ export class RegisterComponent implements OnInit {
       name: ['', Validators.required],
       lastName: ['', Validators.required],
       date: ['', Validators.required],
-      cin: ['', Validators.required],
-      phoneNumber: ['', Validators.required],
+      cin: ['', [Validators.required, Validators.pattern('^[0-8]+$')]], // Assuming CIN is a numeric field
+      phoneNumber: ['', [Validators.required, Validators.pattern('^[0-9]+$')]],
       agency: ['', Validators.required],
       address: ['', Validators.required],
       email: ['', [Validators.required, Validators.email]],
-      password: ['', Validators.required],
+      password: ['', [Validators.required, Validators.minLength(6)]],
       role: ['client'],
       accountNumber: ['', Validators.required]
     });
   }
 
   onSubmit(): void {
+    // Convenience getter for easy access to form fields
+    if (this.registerForm.invalid) {
+      // Mark all controls as touched to show validation errors
+      this.registerForm.markAllAsTouched();
+      return;
+    }
+
     this.signUp = {
       IdRef:this.registerForm.get('accountNumber').value,
       Name:this.registerForm.get('name').value,

@@ -70,7 +70,7 @@ mail!:MailRequest;
   }
 
   UpdateDemande(res:string){
-      this.demande.Status = res;
+      this.demande.status = res;
       console.log(this.demande)
       this.demandeService.UpdateDemande(this.demande).subscribe(()=>{
         console.log("succes")

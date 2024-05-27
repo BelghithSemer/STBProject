@@ -26,7 +26,7 @@ namespace projet.models
         public string AccountNumber { get; set; }
 
         [NotMapped]
-        public IFormFileCollection files { get; set; }
+        public IFormFileCollection? files { get; set; }
 
 
         public List<string> FilePaths { get; set; } = new List<string>();

@@ -17,6 +17,6 @@ loanPurpose!:string
 accountNumber!:string
 files:File[]|undefined
 userid !: number
-Status!: string;
+status!: string;
      
 }

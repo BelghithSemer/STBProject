@@ -46,3 +46,16 @@ C:\Users\ASUS\OneDrive\Desktop\eya\auth\gestionCredits\gestionCredits\gestionCre
 C:\Users\ASUS\OneDrive\Desktop\eya\auth\gestionCredits\gestionCredits\gestionCredits.entites\obj\Debug\net8.0\refint\gestionCredits.entites.dll
 C:\Users\ASUS\OneDrive\Desktop\eya\auth\gestionCredits\gestionCredits\gestionCredits.entites\obj\Debug\net8.0\gestionCredits.entites.pdb
 C:\Users\ASUS\OneDrive\Desktop\eya\auth\gestionCredits\gestionCredits\gestionCredits.entites\obj\Debug\net8.0\ref\gestionCredits.entites.dll
+C:\Users\ASUS\OneDrive\Desktop\STBProject\gestionCredits\gestionCredits\gestionCredits.entites\bin\Debug\net8.0\gestionCredits.entites.deps.json
+C:\Users\ASUS\OneDrive\Desktop\STBProject\gestionCredits\gestionCredits\gestionCredits.entites\bin\Debug\net8.0\gestionCredits.entites.dll
+C:\Users\ASUS\OneDrive\Desktop\STBProject\gestionCredits\gestionCredits\gestionCredits.entites\bin\Debug\net8.0\gestionCredits.entites.pdb
+C:\Users\ASUS\OneDrive\Desktop\STBProject\gestionCredits\gestionCredits\gestionCredits.entites\obj\Debug\net8.0\gestionCredits.entites.csproj.AssemblyReference.cache
+C:\Users\ASUS\OneDrive\Desktop\STBProject\gestionCredits\gestionCredits\gestionCredits.entites\obj\Debug\net8.0\gestionCredits.entites.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\OneDrive\Desktop\STBProject\gestionCredits\gestionCredits\gestionCredits.entites\obj\Debug\net8.0\gestionCredits.entites.AssemblyInfoInputs.cache
+C:\Users\ASUS\OneDrive\Desktop\STBProject\gestionCredits\gestionCredits\gestionCredits.entites\obj\Debug\net8.0\gestionCredits.entites.AssemblyInfo.cs
+C:\Users\ASUS\OneDrive\Desktop\STBProject\gestionCredits\gestionCredits\gestionCredits.entites\obj\Debug\net8.0\gestionCredits.entites.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Desktop\STBProject\gestionCredits\gestionCredits\gestionCredits.entites\obj\Debug\net8.0\gestionCredits.entites.sourcelink.json
+C:\Users\ASUS\OneDrive\Desktop\STBProject\gestionCredits\gestionCredits\gestionCredits.entites\obj\Debug\net8.0\gestionCredits.entites.dll
+C:\Users\ASUS\OneDrive\Desktop\STBProject\gestionCredits\gestionCredits\gestionCredits.entites\obj\Debug\net8.0\refint\gestionCredits.entites.dll
+C:\Users\ASUS\OneDrive\Desktop\STBProject\gestionCredits\gestionCredits\gestionCredits.entites\obj\Debug\net8.0\gestionCredits.entites.pdb
+C:\Users\ASUS\OneDrive\Desktop\STBProject\gestionCredits\gestionCredits\gestionCredits.entites\obj\Debug\net8.0\ref\gestionCredits.entites.dll

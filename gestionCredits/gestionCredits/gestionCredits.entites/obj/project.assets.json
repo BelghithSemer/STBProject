@@ -128,11 +128,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.entites\\gestionCredits.entites.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\OneDrive\\Desktop\\STBProject\\gestionCredits\\gestionCredits\\gestionCredits.entites\\gestionCredits.entites.csproj",
       "projectName": "gestionCredits.entites",
-      "projectPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.entites\\gestionCredits.entites.csproj",
+      "projectPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\STBProject\\gestionCredits\\gestionCredits\\gestionCredits.entites\\gestionCredits.entites.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.entites\\obj\\",
+      "outputPath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\STBProject\\gestionCredits\\gestionCredits\\gestionCredits.entites\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

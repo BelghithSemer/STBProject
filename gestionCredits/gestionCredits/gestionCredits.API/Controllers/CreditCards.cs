@@ -32,7 +32,12 @@ namespace gestionCredits.API.Controllers
             return Ok(filteredCards);
         }
 
-
+        [HttpGet("all")]
+        public IList<CreditCards> GetAll()
+        {
+            var cards = repository.GetAll();
+            return cards;
+        }
 
         [HttpGet("{id}")]
         public ActionResult<CreditCards> Get(int id)

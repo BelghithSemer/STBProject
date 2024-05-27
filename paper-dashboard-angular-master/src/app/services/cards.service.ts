@@ -15,6 +15,9 @@ export class CardsService {
     
      return this.http.get<cards[]>(`https://localhost:7025/api/CreditCards?accountNumber=${accountNumber}`);
 
+   }
+   public getAllCards() {
+    return this.http.get<cards[]>('https://localhost:7025/api/CreditCards/all');
    }   
 
   

@@ -4,6 +4,8 @@ import { LoginComponent } from './login/login.component';
 import { ManageRequestsComponent } from './employee/manage-requests/manage-requests.component';
 import { RegisterComponent } from './pages/register/register.component';
 import { LandingComponent } from './pages/landing/landing.component';
+import { StatComponent } from './pages/stat/stat.component';
+
 
 
 
@@ -28,6 +30,10 @@ export const AppRoutes: Routes = [
   {
     path: 'login',
     component: LoginComponent
+  },
+  {
+    path: 'stats',
+    component: StatComponent
   },
   {
     path: 'register',

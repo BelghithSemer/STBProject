@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EmpWrwvQwXSgPzM62AuJJBlplAWHfW48RTL+pVz3KmXPTStodxJzdk7VexpLqo9krZEltHJ84vDd6V/68f5OUA==",
+  "dgSpecHash": "J0AK0Xvc1mIKCOsWYKpTokcmuADmtpM9uOsbY13bXurt+MiYApX9sTSbyjAyneP0IAKJUZWrC7vIQmFpZSM0Wg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\eya\\auth\\gestionCredits\\gestionCredits\\gestionCredits.core\\gestionCredits.core.csproj",
+  "projectFilePath": "C:\\Users\\ASUS\\OneDrive\\Desktop\\STBProject\\gestionCredits\\gestionCredits\\gestionCredits.core\\gestionCredits.core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\azure.core\\1.37.0\\azure.core.1.37.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -47,7 +47,7 @@ export class demandeCredit {
       accountNumber: "2123456789",
       files: [],
       userid: 1,
-      Status : 'non-traitee'
+      status : 'non-traitee'
     };
   }
  
