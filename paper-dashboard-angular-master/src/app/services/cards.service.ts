@@ -20,6 +20,10 @@ export class CardsService {
     return this.http.get<cards[]>('https://localhost:7025/api/CreditCards/all');
    }   
 
+   public update(card : cards){
+    return this.http.put(`https://localhost:7025/api/CreditCards/${card.id}`, card);
+   }
+
   
   
 }

@@ -30,6 +30,7 @@ import { ManageRequestsComponent } from 'app/employee/manage-requests/manage-req
 import { RegisterComponent } from './pages/register/register.component';
 import { LandingComponent } from './pages/landing/landing.component';
 import { StatComponent } from './pages/stat/stat.component';
+import { CardsComponent } from './pages/cards/cards.component';
 
 
 @NgModule({
@@ -43,7 +44,8 @@ import { StatComponent } from './pages/stat/stat.component';
     ManageRequestsComponent,
     RegisterComponent,
     LandingComponent,
-    StatComponent
+    StatComponent,
+    CardsComponent
 
 
 

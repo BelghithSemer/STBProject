@@ -9,6 +9,7 @@ import { UpgradeComponent } from '../../pages/upgrade/upgrade.component';
 import { demandeCredit } from 'app/pages/demandeCredit/demandeCredit.component';
 import { ManageRequestsComponent } from 'app/employee/manage-requests/manage-requests.component';
 import { StatComponent } from 'app/pages/stat/stat.component';
+import { CardsComponent } from 'app/pages/cards/cards.component';
 
 
 
@@ -23,5 +24,6 @@ export const AdminLayoutRoutes: Routes = [
     { path: 'request',      component: ManageRequestsComponent },
     { path: 'upgrade',        component: UpgradeComponent },
     { path: 'stats',        component: StatComponent },
+    { path: 'cards',        component: CardsComponent },
 
 ];
