@@ -80,6 +80,20 @@ loadSolds() {
   );
 
  }
+ BlockCard(card: cards){
+  console.log(card.statut)
+  card.statut = "Carte Non Active";
+  this.cardService.update(card).subscribe(()=>{
+
+  })
+}
+ActiverCard(card: cards){
+  console.log(card.statut)
+  card.statut = "Carte Active";
+  this.cardService.update(card).subscribe(()=>{
+    
+  })
+}
 }
 
 

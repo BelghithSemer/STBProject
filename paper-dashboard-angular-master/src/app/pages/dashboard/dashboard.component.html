@@ -42,11 +42,12 @@
           <th> Carte </th>
           <th> Libellé </th>
           <th> Solde/Plafond </th>
+          <th>Blockage</th>
         </thead>
         <tbody>
           <tr *ngFor="let t of cards">
             <td>
-               <span [style.backgroundColor]="t.statut === 'Carte Activé' ? '#75da7e' : 'red'"
+               <span [style.backgroundColor]="t.statut === 'Carte Active' ? '#75da7e' : 'red'"
                      [style.borderRadius]="'30px'"
                      [style.padding]="'5px 10px'"
                      [style.color]="t.statut === 'activé' ? 'white' : 'white'">
@@ -66,7 +67,23 @@
                 </div>
               </div>
             </td>
-            
+            <td>
+              <span>
+                {{ t.statut }}
+              </span>
+              <button *ngIf="t.statut === 'Carte Active'"
+            type="button"
+            class="btn btn-danger"
+            (click)="BlockCard(t)">
+              Bloquer
+            </button>
+            <button *ngIf="t.statut !== 'Carte Active'"
+                    type="button"
+                    class="btn btn-success"
+                    (click)="ActiverCard(t)">
+              Activer
+            </button>
+            </td>
          
            </tr>
            
