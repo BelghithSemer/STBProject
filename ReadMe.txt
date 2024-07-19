@@ -14,7 +14,7 @@ The Bank Dashboard is an advanced platform designed to provide a seamless and ef
 
 The project is developed using .NET for the backend and Angular for the frontend, ensuring a robust and user-friendly interface.
 
-These Are Some Screens about my project : 
+ 
 
 
 
